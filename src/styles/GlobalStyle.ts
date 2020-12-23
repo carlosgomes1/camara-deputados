@@ -12,6 +12,8 @@ const GlobalStyle = createGlobalStyle`
     html, body, #root {
         height: 100%;
         font-size: 60%;
+
+        background-color: #eeeeee;
     }
 
     #root {
@@ -19,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
         justify-content: center;
         align-items: center;
 
-        background-color: #eeeeee;
+    }
 
     body, input, button, textarea {
         font: 500 1.6rem Poppins;
