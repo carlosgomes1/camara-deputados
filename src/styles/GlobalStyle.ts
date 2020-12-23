@@ -17,7 +17,9 @@ const GlobalStyle = createGlobalStyle`
     #root {
         display: flex;
         justify-content: center;
-    }
+        align-items: center;
+
+        background-color: #eeeeee;
 
     body, input, button, textarea {
         font: 500 1.6rem Poppins;
